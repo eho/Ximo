@@ -3,6 +3,8 @@ Ximo is a group of selected extensions and utilities to assist with learning/dev
 
 The samples included are for educational and demonstration purposes only and should not be used in production without adequate testing.
 
-The toolset currently is in .NET Core 1.1 and will continue to evolve with future releases.
+The toolset and the sample currently is in .NET Core 1.1 and will continue to evolve with future releases. 
+
+Documentation is currently in development. 
 
 ENJOY!

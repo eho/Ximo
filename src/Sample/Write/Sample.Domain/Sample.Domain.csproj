@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Toolset\Ximo\Ximo.csproj" />
+    <ProjectReference Include="..\..\Contracts\Sample.Commands\Sample.Commands.csproj" />
+    <ProjectReference Include="..\..\Contracts\Sample.DomainEvents\Sample.DomainEvents.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="1.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Toolset\Ximo\Ximo.csproj" />
+    <ProjectReference Include="..\..\Contracts\Sample.DomainEvents\Sample.DomainEvents.csproj" />
+    <ProjectReference Include="..\..\Contracts\Sample.Queries\Sample.Queries.csproj" />
+  </ItemGroup>
+
+</Project>

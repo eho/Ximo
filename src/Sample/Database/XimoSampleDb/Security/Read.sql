@@ -1,0 +1,3 @@
+﻿CREATE SCHEMA [Read]
+    AUTHORIZATION [dbo];
+

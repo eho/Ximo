@@ -6,5 +6,3 @@
     CONSTRAINT [PK_Write.AccountSnapshot] PRIMARY KEY CLUSTERED ([SnapshotId] ASC)
 );
 
-
-

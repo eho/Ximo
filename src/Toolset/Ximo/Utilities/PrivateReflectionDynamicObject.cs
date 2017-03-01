@@ -177,17 +177,11 @@ namespace Ximo.Utilities
                 }
 
                 var method =
-                    type.GetMethods(BindingFlags)
+                    type.GetTypeInfo().GetMethods(BindingFlags)
                         .FirstOrDefault(
                             m =>
                                 m.Name == name && m.GetParameters().Select(p => p.ParameterType).SequenceEqual(argtypes));
                 return method.Invoke(target, args);
-                //return type.GetTypeInfo()(
-                //    name,
-                //    BindingFlags.InvokeMethod | bindingFlags,
-                //    null,
-                //    target,
-                //    args);
             }
             catch (MissingMethodException)
             {

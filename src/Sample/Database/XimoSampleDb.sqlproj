@@ -7,7 +7,7 @@
     <Name>XimoSampleDb</Name>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>4.1</ProjectVersion>
-    <ProjectGuid>{1a0d25a5-12f2-42ee-a473-5a22ca701d1e}</ProjectGuid>
+    <ProjectGuid>{d2b99ada-95e3-4308-8f7e-37dc02a075d3}</ProjectGuid>
     <DSP>Microsoft.Data.Tools.Schema.Sql.Sql130DatabaseSchemaProvider</DSP>
     <OutputType>Database</OutputType>
     <RootPath>
@@ -66,10 +66,10 @@
     <Folder Include="Security\" />
   </ItemGroup>
   <ItemGroup>
-    <Build Include="Read\Tables\AccountDetails.sql" />
     <Build Include="Read\Tables\SystemTag.sql" />
-    <Build Include="Write\Tables\AccountEvents.sql" />
+    <Build Include="Read\Tables\AccountDetails.sql" />
     <Build Include="Write\Tables\AccountNumber.sql" />
+    <Build Include="Write\Tables\AccountEvents.sql" />
     <Build Include="Write\Tables\AccountSnapshot.sql" />
     <Build Include="Security\Read.sql" />
     <Build Include="Security\Write.sql" />

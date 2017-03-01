@@ -95,7 +95,7 @@ namespace Ximo.Cqrs
             {
                 var handler = _serviceProvider.GetRequiredService(eventHandler);
                 var handle =
-                    eventHandler.GetMethods()
+                    eventHandler.GetTypeInfo().GetMethods()
                         .First(m => m.GetParameters()[0].ParameterType == systemEventType && m.Name.Equals("Handle"));
                 handle.Invoke(handler, new object[] {@event});
             }
